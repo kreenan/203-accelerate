@@ -49,3 +49,38 @@ Text Domain:  accelerate-theme-child
     color: #45ac9d;
     text-transform: uppercase;
 }
+
+/*Single Case Study Page*/
+
+.case-study-sidebar {
+    width: 30%;
+    float: left;
+    margin: 0 50px;
+}
+
+.case-study-sidebar h2 {
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+.case-study-sidebar h4 {
+    font-weight: normal;
+    font-size: .8em;
+    margin-top: .75em;
+    color: gray;
+}
+
+.case-study-sidebar span {
+    color: black;
+}
+
+.case-study-img {
+    width: 50%;
+    float: left;
+    margin: 3em 1em;
+}
+
+img {
+    width: 85%;
+    margin: auto;
+}
