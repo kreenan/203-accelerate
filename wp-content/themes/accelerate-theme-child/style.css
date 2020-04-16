@@ -50,6 +50,25 @@ Text Domain:  accelerate-theme-child
     text-transform: uppercase;
 }
 
+.featured-work {
+    text-align: center;
+}
+
+.featured-work h3 {
+    font-weight: normal;
+}
+
+.homepage-featured-work {
+    list-style-type: none;
+}
+
+.homepage-featured-work li {
+    display: inline;
+    float: left;
+    text-align: center;
+    margin: 6px;
+}
+
 /*Single Case Study Page*/
 
 .case-study-sidebar {
