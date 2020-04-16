@@ -66,8 +66,11 @@ Text Domain:  accelerate-theme-child
     display: inline;
     float: left;
     text-align: center;
-    margin: 6px;
+    margin: 15px;
+    width: 30%;
 }
+
+
 
 /*Single Case Study Page*/
 

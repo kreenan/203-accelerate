@@ -51,7 +51,7 @@ get_header(); ?>
 			<?php endwhile; // end of the loop. ?>
 
 			<nav id="navigation" class="container">
-				<div class="left"><a href="<?php echo site_url('/blog/') ?>">&larr; <span>Back to posts</span></a></div>
+				<div class="left"><a href="<?php echo site_url('/case-studies/') ?>">&larr; <span>Back to Work</span></a></div>
 			</nav>
 		</div><!-- .main-content -->
 
