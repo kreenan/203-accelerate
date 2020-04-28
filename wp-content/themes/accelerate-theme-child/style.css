@@ -24,6 +24,25 @@ Text Domain:  accelerate-theme-child
 	background: none repeat scroll 0 0 #45ac9d;
 }
 
+/* FOOTER */
+
+.menu-social-media-nav-container ul {
+    list-style: none;
+}
+
+.menu-social-media-nav-container ul li {
+    display: inline;
+}
+
+.menu-social-media-nav-container ul li i._mi.dashicons.dashicons-twitter,
+.menu-social-media-nav-container ul li i._mi.dashicons.dashicons-facebook-alt,
+.menu-social-media-nav-container ul li i._mi.fa.fa-linkedin {
+    color: white;
+    background: black;
+    border-radius: 50%;
+    padding: 3px;
+}
+
 /*BLOG POSTS*/
 
 .blog-post {
