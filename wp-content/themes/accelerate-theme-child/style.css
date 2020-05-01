@@ -124,3 +124,44 @@ Text Domain:  accelerate-theme-child
 img {
     margin: auto;
 }
+
+/* CONTACT US PAGE */
+
+#main #primary .main-content {
+    width: 80%;
+}
+
+#nf-field-1-container.nf-field-container, #nf-field-2-container.nf-field-container {
+    width: 50%;
+    float: left;
+    clear: initial;
+}
+
+#nf-field-1-container {
+    padding-right: 10px;
+}
+
+#nf-field-2-container {
+    padding-left: 10px;
+}
+
+.nf-field-label label#nf-label-field-1,
+.nf-field-label label#nf-label-field-2,
+.nf-field-label label#nf-label-field-3 {
+    font-weight: 200;
+}
+
+#nf-field-1,
+#nf-field-2,
+#nf-field-3 {
+    background: #fff;
+}
+
+.ninja-forms-req-symbol {
+    display: none;
+}
+
+input#nf-field-4.ninja-forms-field.nf-element {
+    background: #45ac9d;
+    float: right;
+}
