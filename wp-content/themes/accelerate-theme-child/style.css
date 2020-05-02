@@ -127,9 +127,9 @@ img {
 
 /* CONTACT US PAGE */
 
-#main #primary .main-content {
+/*#main #primary .main-content {
     width: 80%;
-}
+}*/
 
 #nf-field-1-container.nf-field-container, #nf-field-2-container.nf-field-container {
     width: 50%;
@@ -164,4 +164,9 @@ img {
 input#nf-field-4.ninja-forms-field.nf-element {
     background: #45ac9d;
     float: right;
+    padding-left: 80px;
+    padding-right: 80px;
 }
+
+/* ABOUT PAGE */
+
