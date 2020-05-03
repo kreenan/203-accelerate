@@ -127,9 +127,22 @@ img {
 
 /* CONTACT US PAGE */
 
-/*#main #primary .main-content {
-    width: 80%;
-}*/
+.contact div.site-content {
+    width: 55%;
+}
+
+.contact h2,
+.contact p {
+    color: #2b2b2b;
+}
+
+.contact h2 {
+    font-size: 25px;
+}
+
+.contact p {
+    font-size: 16.5px;
+}
 
 #nf-field-1-container.nf-field-container, #nf-field-2-container.nf-field-container {
     width: 50%;
@@ -148,7 +161,8 @@ img {
 .nf-field-label label#nf-label-field-1,
 .nf-field-label label#nf-label-field-2,
 .nf-field-label label#nf-label-field-3 {
-    font-weight: 200;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 #nf-field-1,
@@ -168,5 +182,81 @@ input#nf-field-4.ninja-forms-field.nf-element {
     padding-right: 80px;
 }
 
+.nf-response-msg {
+    text-align: center;
+}
+
+.nf-response-msg h4 {
+    color: #45ac9d;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
 /* ABOUT PAGE */
 
+.about #primary p {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    width: 45%;
+}
+
+.about .home-page {
+    padding: initial;
+    padding-bottom: 70px;
+}
+
+
+#about.services-section {
+    text-align: center;
+    max-width: 90%;
+    margin: auto;
+}
+
+.services-section p {
+    padding-bottom: 60px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    text-align: left;
+    margin-bottom: 70px;
+}
+
+.services-text {
+    width: 60%;
+}
+
+.services img {
+    max-width: initial;
+}
+
+.services .left-image {
+    padding-right: 75px;
+}
+
+.services .right-image {
+    padding-left: 75px;
+}
+
+.about-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    border-top: 1px solid #a6a6a6;
+    margin:0 235px;
+    padding: 20px 0;
+}
+
+.about-bottom h3 {
+    margin-right: 20px;
+}
+
+.about-bottom .button {
+    margin-left: 20px;
+    margin-top: 25px;
+}
