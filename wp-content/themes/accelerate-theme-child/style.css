@@ -46,9 +46,10 @@ Text Domain:  accelerate-theme-child
 /*BLOG POSTS*/
 
 .blog-post {
-    width: 50%;
+    width: 45%;
     float: left;
     margin-bottom: 2em;
+    margin-right: 40px;
 }
 
 .blog-post h4 {
@@ -89,7 +90,21 @@ Text Domain:  accelerate-theme-child
     width: 30%;
 }
 
+/* Twitter Feed */
 
+.twitter-post {
+    width: 45%;
+    float: left;
+    margin-bottom: 2em;
+    margin-left: 40px;
+}
+
+.twitter-post h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 2.5em;
+}
 
 /*Single Case Study Page*/
 
@@ -297,4 +312,19 @@ input#nf-field-4.ninja-forms-field.nf-element {
 #page-not-found a {
     color: #45ac9d;
     font-weight: bold;
+}
+
+/* MailChimp SignUp */
+
+.mc4wp-form-fields label {
+    font-size: 16px;
+}
+
+.mc4wp-form-fields input[type="submit"] {
+    padding-bottom: 30px;
+    background: #45ac9d;
+}
+
+.mc4wp-form-fields input[type="button"] {
+    background: #45ac9d;
 }

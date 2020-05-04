@@ -55,7 +55,19 @@ get_header(); ?>
 						<h3><?php the_title(); ?></h3>
 						<?php the_excerpt(); ?>
 					<?php endwhile; ?>
-				<?php wp_reset_query(); ?>	
+				<?php wp_reset_query(); ?>
+				</div>
+			<div class="twitter-post">
+			<h4>Recent Tweet</h4>
+				<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+				<div id="secondary" class="widget-area" role="complementary">
+					
+				<?php dynamic_sidebar( 'sidebar-2' ); ?>
+				<div class="read-more-link">
+					<a href="https://www.twitter.com/skillcrush">Follow Us &rsaquo;</a>
+				</div>
+				</div>
+				<?php endif; ?>	
 			</div>
 		</div>	
 	</section>
