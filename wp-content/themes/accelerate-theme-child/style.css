@@ -260,3 +260,41 @@ input#nf-field-4.ninja-forms-field.nf-element {
     margin-left: 20px;
     margin-top: 25px;
 }
+
+/* 404 Page */
+
+.error404 #main {
+    margin-bottom: 2px;
+}
+
+#primary.not-found {
+    background-image: url("img/diane-alkier-bananas.jpg");
+    background-size: cover;
+    height: 800px;
+    margin: 0;
+    max-width: initial;
+    width: 100%;
+}
+
+#page-not-found {
+    width: 55%;
+    float: right;
+}
+
+#page-not-found h2 {
+    color: #45ac9d;
+    font-size: 50px;
+    margin-top: 25px;
+    font-family: 'Fredericka the Great', cursive, serif;
+    font-weight: normal;
+}
+
+#page-not-found p {
+    padding-right: 100px;
+    font-size: 25px;
+}
+
+#page-not-found a {
+    color: #45ac9d;
+    font-weight: bold;
+}
