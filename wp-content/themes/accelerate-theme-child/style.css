@@ -147,7 +147,7 @@ img {
 }
 
 .contact h2,
-.contact p {
+.contact .main-content p {
     color: #2b2b2b;
 }
 
@@ -155,7 +155,7 @@ img {
     font-size: 25px;
 }
 
-.contact p {
+.contact .main-content p {
     font-size: 16.5px;
 }
 
